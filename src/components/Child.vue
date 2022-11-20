@@ -6,7 +6,8 @@
     我是子组件
     <el-button class="bg-blue-300" @click="handleClick">子组件的按钮</el-button>
   </div>
-
+  <div>我在child中修改文件</div>
+  <div>我在master中修改文件</div>
 </template>
 
 <script setup>
